@@ -1,0 +1,13 @@
+{
+  "name": "WinTid",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Kalkuler timeføring",
+  "web_accessible_resources": ["calculate.js"],
+  "content_scripts": [
+    {
+        "matches": ["http://vx66wintid/*"],
+      "js": ["wintid.js"]
+    }
+  ]
+}
